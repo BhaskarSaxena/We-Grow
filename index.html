@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>We Grow</title>
+  <link rel="shortcut icon"
+    href="data:image/png;base64,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"
+    type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="nav">
+    <div id="logo">
+      <h1>We</h1>
+      <h1>Grow</h1>
+    </div>
+    <div id="navbtn">
+      <h2>Home</h2>
+      <h2>About</h2>
+      <h2>Services</h2>
+      <h2>Contact</h2>
+    </div>
+
+  </div>
+  <div id="cursor"></div>
+  <div id="cursor-blur"></div>
+
+  <video autoplay loop muted
+    src="https://videos.pexels.com/video-files/7660169/7660169-uhd_1440_2560_25fps.mp4"></video>
+  <div id="main">
+    <div id="page1">
+      <h1>Connect.Influence.Succeed.</h1>
+      <h2>WELCOME TO WE GROW!!</h2>
+      <p>
+        Welcome to We Grow, where your brand's influence blossoms! 🌟 Our team is dedicated to amplifying your reach
+        with innovative strategies and authentic connections. Let's grow together and make an impact! 🚀
+      </p>
+      <div id="arrow">
+        <i class="ri-arrow-down-line"></i>
+      </div>
+    </div>
+    <div id="page2">
+      <div id="scroller">
+        <div id="scroller-in">
+
+          <h4>Connect </h4>
+          <h4>Influence</h4>
+          <h4>Impact</h4>
+          <h4>Succeed</h4>
+        </div>
+        <div id="scroller-in">
+
+          <h4>Connect</h4>
+          <h4>Influence </h4>
+          <h4>Impact</h4>
+          <h4>Succeed</h4>
+        </div>
+      </div>
+      <div id="about-us">
+        <img src="https://images.pexels.com/photos/3194519/pexels-photo-3194519.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt="" />
+        <div id="about-us-in">
+          <h3>ABOUT US</h3>
+          <p>
+            We specialize in transforming brands through cutting-edge influencer marketing strategies. Our team blends
+            creativity with data-driven insights to connect you with the perfect influencers, ensuring authentic and
+            impactful engagement. We are dedicated to driving your brand's growth and elevating its presence in a
+            competitive landscape. Partner with us to unlock new opportunities and amplify your message effectively.
+          </p>
+        </div>
+        <img src="https://centdigital.in/wp-content/uploads/2019/11/about-image-1.png" alt="" />
+      </div>
+      <div id="service">
+        <h1>Services</h1>
+      </div>
+      <div id="cards-container">
+        <div class="card" id="card1">
+          <div class="overlay">
+            <h4>Content <br>Creation &<br> Collaboration</h4>
+            <p>
+              Our team facilitates creative partnerships between your brand and influencers, crafting engaging and
+              authentic content that resonates with your target audience. Together, we bring your brand’s vision to
+              life.
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="card2">
+          <div class="overlay">
+            <h4>Campaign <br> Management</h4>
+            <p>
+              We expertly handle every aspect of your influencer campaigns, from inception to execution, ensuring
+              seamless integration and impactful results. Trust us to optimize performance and deliver exceptional
+              outcomes.
+            </p>
+          </div>
+        </div>
+        <div class="card" id="card3">
+          <div class="overlay">
+            <h4>Performance <br> Analytics & <br> Reporting</h4>
+            <p>
+              We provide in-depth analysis and clear reporting on your campaign’s effectiveness, offering actionable
+              insights to drive future success. Track progress and measure impact with our comprehensive performance
+              metrics.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="green-div">
+        <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg" alt="" />
+        <h4>
+          SIGN UP FOR WE GROW NEWS AND SPECIAL OFFERS STRAIGHT TO YOUR INBOX
+        </h4>
+        <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg" alt="" />
+      </div>
+    </div>
+    <div id="page3">
+      <p>
+        Unlock your brand's potential with We Grow. We craft powerful connections between your message and the right
+        influencers, driving genuine engagement and lasting impact. Together, let's make your vision a reality.
+      </p>
+      <img id="colon1" src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-left.svg" alt="" />
+      <img id="colon2" src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-right.svg" alt="" />
+    </div>
+    <div id="page4">
+      <h1>WHAT ARE YOU WAITING FOR?</h1>
+      <div class="elem">
+        <h2>Connect</h2>
+        <img
+          src="https://images.pexels.com/photos/1181715/pexels-photo-1181715.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="" />
+      </div>
+      <div class="elem">
+        <h2>Influence</h2>
+        <img
+          src="https://images.pexels.com/photos/7243156/pexels-photo-7243156.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="" />
+      </div>
+      <div class="elem">
+        <h2>Succeed</h2>
+        <img
+          src="https://images.pexels.com/photos/1134190/pexels-photo-1134190.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="" />
+      </div>
+    </div>
+    <div id="footer">
+
+      <div id="f3">
+        <h3>CONNECT.</h3>
+        <h3>INFLUENCE.</h3>
+        <h3>SUCCEED.</h3>
+      </div>
+      
+      <div id="f4">
+        <a href="https://www.instagram.com/apkasofttech/" target="_blank">
+          <h4> Instagram</h4>
+        </a>
+        <a href="https://in.linkedin.com/company/apkasofttech" target="_blank">
+          <h4>Linkedin</h4>
+        </a>
+        <a href="https://wa.me/919717583979" target="_blank">
+          <h4>Whatsapp</h4>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
+    integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"
+    integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
